@@ -1,0 +1,39 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Nov 02, 2026 at 16:06:05 IST
+ncverilog
+	+access+r
+	../RTL/sreg.v
+	../TB/TB_sreg.v
+file: ../RTL/sreg.v
+	module worklib.shift_register:v
+		errors: 0, warnings: 0
+file: ../TB/TB_sreg.v
+	module worklib.tb_shift_register:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.shift_register:v <0x58b58f43>
+			streams:   2, words:   619
+		worklib.tb_shift_register:v <0x17fb8e75>
+			streams:   2, words:  2930
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               5       5
+		Scalar wires:            4       -
+		Vectored wires:          1       -
+		Always blocks:           2       2
+		Initial blocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_shift_register:v
+Loading snapshot worklib.tb_shift_register:v .................... Done
+ncsim> source /opt/cadence/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 110 NS + 0
+../TB/TB_sreg.v:18         #20 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s086: Exiting on Nov 02, 2026 at 16:06:42 IST  (total: 00:00:37)

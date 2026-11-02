@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(02Nov2026:15:38:43):( ncverilog +access+r ../rtl/comp4.v ../tb/tb_comp4.v )

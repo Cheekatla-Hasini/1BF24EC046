@@ -1,0 +1,107 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Nov 02, 2026 at 15:38:43 IST
+ncverilog
+	+access+r
+	../rtl/comp4.v
+	../tb/tb_comp4.v
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncvlog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncvlog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+file: ../rtl/comp4.v
+	module worklib.comparator:v
+		errors: 0, warnings: 0
+file: ../tb/tb_comp4.v
+	module worklib.tb_comparator:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncverilog: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncelab: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncelab: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncvlog_cg: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncvlog_cg: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+		worklib.comparator:v <0x44c2ea9f>
+			streams:   1, words:   959
+		worklib.tb_comparator:v <0x39d9182a>
+			streams:   1, words:  2868
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               5       5
+		Scalar wires:            3       -
+		Vectored wires:          2       -
+		Always blocks:           1       1
+		Initial blocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_comparator:v
+SOFTINCLUDE $FOUNDRY/cds.lib
+|
+ncsim: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,5): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $FINFET/cds.lib
+|
+ncsim: *W,DLCVAR (/opt/cadence/installs/IC618/share/cdssetup/cds.lib,6): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.tb_comparator:v .................... Done
+ncsim> source /opt/cadence/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 60 NS + 0
+../tb/tb_comp4.v:16         $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s086: Exiting on Nov 02, 2026 at 15:38:49 IST  (total: 00:00:06)

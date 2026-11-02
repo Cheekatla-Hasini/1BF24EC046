@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(02Nov2026:16:06:05):( ncverilog +access+r ../RTL/sreg.v ../TB/TB_sreg.v )
